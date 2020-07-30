@@ -6,8 +6,11 @@ object MyApp extends App{
     var Ac5 = new Account("971701617V",20200729, 5611.74)
     var Ac6 = new Account("971701617V",20200729, -234.56)
     var Ac7 = new Account("971701617V",20200729, 4356.43)
+    var Ac8 = new Account("971701617V",20200729, -5000.00)
+    var Ac9 = new Account("971701617V",20200729, 634.13)
+    var Ac10 = new Account("971701617V",20200729, 1457.23)
 
-    var Bank:List[Account]=List(Ac1,Ac2,Ac3,Ac4,Ac5,Ac6,Ac7)
+    var Bank:List[Account]=List(Ac1,Ac2,Ac3,Ac4,Ac5,Ac6,Ac7,Ac8,Ac9,Ac10)
 
     //question 4.1
    val negAccounts = Bank.filter(x=>x.balance<0)
